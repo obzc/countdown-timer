@@ -3,7 +3,7 @@ Simple and useful Countdown Timer!
 	  <div class="row">
 		<div class="col-lg-12">
 			<h3>Demo:</h3>
-			<p class="text-muted counter"></p>
+			<a href="https://obzc.github.io/CountDownTimer/index.html">Demo!</a>
 		</div>
 	  </div>
 	  <br />

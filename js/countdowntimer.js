@@ -21,7 +21,7 @@ $.fn.setCountDownTimer = function (param) {
         var cTime = new Date().getTime(),
         diff = cTime - sTime,
         seconds = countDown - Math.floor(diff / 1000);
-
+        param.button.attr('disabled', 'disabled');
         if (seconds >= 0) {
             var minutes = Math.floor(seconds / 60);
             seconds -= minutes * 60;
